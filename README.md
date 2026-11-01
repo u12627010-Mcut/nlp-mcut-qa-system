@@ -29,11 +29,11 @@
   - [x] 1-A
   - [x] 1-B
   - [x] 1-C
-- [ ] **結構健全度 (Mechanical Sanity)**：
-  - [ ] 拓撲錨定率
-  - [ ] 運用「中位數 (Median)」計算文本長度。
-- [ ] **語意品質 (Semantic Quality)**：
-  - [ ] (選修) 成功計算 Shannon Information Entropy (夏農資訊熵)，比較 Cleaned 與 Raw 資料的中位數資訊熵。
-- [ ] **觀測儀表板與報告**：
-  - [ ] 成功繪製 4 拼圖資料觀測儀表板 (4-Panel Dashboard)。
-  - [ ] 成功將核心評估指標匯出為根目錄下的 `metrics.json`。
+- [x] **結構健全度 (Mechanical Sanity)**：
+  - [x] 拓撲錨定率
+  - [x] 運用「中位數 (Median)」計算文本長度。
+- [x] **語意品質 (Semantic Quality)**：
+  - [x] (選修) 成功計算 Shannon Information Entropy (夏農資訊熵)，比較 Cleaned 與 Raw 資料的中位數資訊熵。
+- [x] **觀測儀表板與報告**：
+  - [x] 成功繪製 4 拼圖資料觀測儀表板 (4-Panel Dashboard)。
+  - [x] 成功將核心評估指標匯出為根目錄下的 `metrics.json`。

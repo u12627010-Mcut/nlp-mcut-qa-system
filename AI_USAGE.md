@@ -10,7 +10,7 @@
 
 | 工具 (例：ChatGPT、Gemini、Claude、Copilot) | 版本 / 方案 (例：免費版) | 用在哪幾週 |
 |---|---|---|
-| | | |
+|ChatGPT、Gemini|免費版|4、8週|
 
 ---
 
