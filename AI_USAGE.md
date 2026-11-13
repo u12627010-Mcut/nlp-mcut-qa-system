@@ -77,7 +77,20 @@
 - 一句話：查證後，我發現 AI 的解讀 在不專業的我看來沒甚麼問題，可能要再繼續修正重跑一次我的實作內容我才可能會發現AI的問題。
 
 ---
+## Week 10：（本週主題）
 
+- **我請 AI 幫忙做什麼**：除錯
+- **我寫的關鍵提示詞** (只貼你自己寫的部分)：
+  ```text
+  def search_bm25(query, k=3):
+    scores = bm25.get_scores(tokenize([query]))   # TODO 1：用 bm25.get_scores(...) 算出問題對每個 chunk 的分數（記得問題也要先斷詞）
+    order = np.argsort(-scores)[:k]    # TODO 2：分數由高到低，取前 k 個的列號（參考 search_tfidf）
+    return [(int(i), float(scores[i])) for i in order]
+  ```
+- **AI 的答案第一次就能用嗎？** [x] 能　[ ] 不能，我改了([query])
+- **我怎麼確認 AI 的答案是對的** (測試、斷言、看輸出、查文件)：看輸出
+- **下次我會怎麼做**：請AI在解釋
+---
 <!--
 ## 之後每週請複製這個區塊
 
